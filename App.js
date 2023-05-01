@@ -33,3 +33,11 @@ function App() {
         ))}
       </div>
       {winner ? <div className="winner">{winner} wins!</div>
+  : board.every((cell) => cell !== null) ? (
+      <div className="winner">It's a tie!</div>
+    ) : (
+      <div className="player">{player}'s turn</div>
+    )}
+</div>
+);
+}
