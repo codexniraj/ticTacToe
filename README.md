@@ -8,3 +8,4 @@ Python ,ReactJS ,CSS
 5.Finally, add some Python code to handle the game logic on the backend. Create a new file called app.py in the root directory of your project and add the following code.
 6. To run the game, start the Flask server by running the following command in your terminal
 Then open a web browser and navigate to `http://localhost:5000` to play the game.
+made by Niraj Wani
